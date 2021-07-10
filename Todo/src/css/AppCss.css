@@ -1,0 +1,40 @@
+.App{
+  padding: 4rem;
+}
+
+li {
+  list-style:none;
+}
+
+.App-Sub {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.App-Add-Img{
+  width: 60px;
+  transition: width .5s;
+}
+
+
+.Check-Img{
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+.App-Add-Img:hover{
+  width: 80px;
+}
+
+@media (max-width: 1000px)  {
+  .App-Add-Img{
+    width: 50px;
+  }
+
+  .App{
+    padding: 0px 4px;;
+  }
+
+  .App-Sub{
+  }
+}

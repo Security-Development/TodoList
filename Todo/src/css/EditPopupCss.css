@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800');
+
+.popup{
+  background-color: rgba(0,0,0,0.3);
+  transition: height .5s;
+}
+
+input {
+  background-color: #00BFC8;
+  font-family: 'Nanum Gothic';
+  border: none;
+  width: 100%;
+  color: rgba(0,0,0,0.3);
+  font-size: 15px;
+}
+
+.text:hover{
+  opacity: 1;
+}
+
+.text {
+  opacity: 0.7;
+  transition: opacity .5s;
+}
+
+.date:hover{
+  opacity: 1;
+}
+
+.date {
+  opacity: 0.7;
+  transition: opacity .5s;
+  font-size: 7px;
+}
+
+.popup-text {
+  width: 100%;
+  line-height: 150%;
+}
+
+.popup-date {
+  line-height: 150%;
+  width: 101%;
+}
+
+.popup-submit{
+  background-color: rgba(0,0,0, 0.3);
+  border: none;
+  outline:none;
+  height: 50px;
+  width: 100px;
+  color: white;
+  opacity: 0.7;
+  transition: opacity .5s;
+  margin-top: 10px;
+}
+
+.popup-submit:hover{
+  opacity: 1;
+}
+
+.popup-button{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.popup-title {
+  font-size: 25px;
+  margin: 0 auto;
+  text-align: center;
+  opacity: 0.7;
+  transition: opacity .5s;
+}
+
+.popup-img{
+  opacity: 0.3;
+  width: 50%;
+  transition: opacity .5s;
+}
+
+.popup-img:hover{
+  opacity: 0.7;
+}
+
+.popup-img-main{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.popup-title:hover{
+  opacity: 1;
+}
+
+.popup-inner{
+  padding: 0.4rem 2rem;
+}
+
+@media (max-height: 1000px) {
+  .popup-date{
+    font-size: 10px;
+  }
+
+  .popup-text{
+    font-size: 10px;
+  }
+
+  .popup-title{
+    font-size: 16px;
+  }
+
+  .popup-submit{
+    height: 30px;
+    width: 70px;
+  }
+}

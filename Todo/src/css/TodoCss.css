@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800');
+
+.btn{
+  background-color: #00BFC8;
+  text-decoration: none;
+  width: 100px;
+  color: white;
+}
+
+
+.todo-list {
+  background-color: rgba(239, 239, 239, 0.1);
+  width: 512px;
+  margin-top: 2rem;
+  color: white;
+  font-family: 'Nanum Gothic';
+  border-radius: 15px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.title{
+  text-align: center;
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.forms{
+  padding: 0.8rem;
+}
+
+.todos{
+  padding: 0.8rem;
+  min-height: 2rem;
+  word-break: break-all;
+  background-color: rgba(0, 0, 0, 0.1);
+
+}
+
+.check-img{
+  float: right;
+  padding: 10px 10px;
+  width: 30px;
+}
+
+.Todo-Edit-Img:hover{
+  width: 80px;
+}
+
+.Todo-Edit-Img{
+  width: 60px;
+  float: right;
+  transition: width .5s;
+}
+
+.Todo-Exit-Img:hover{
+  width: 80px;
+}
+
+.Todo-Exit-Img{
+  width: 66px;
+  float: right;
+  transition: width .5s;
+  margin-top: -17px;
+
+}
+
+.todo-text{
+  padding: 0 6px;
+  margin-top: 20px;
+  word-break: break-all;
+}
+
+
+body{
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+@media (max-width:700px){
+
+  .Todo-Edit-Img{
+    width: 50px;
+  }
+
+  .Todo-Exit-Img{
+    width: 54px;
+    margin-top: -14px;
+  }
+
+  .todo-list {
+    width: 162px;
+  }
+  .title{
+    font-size: 1rem;
+  }
+
+  .forms{
+    font-size: 0.7px;
+  }
+
+  .todos{
+    font-size: 0.7px;
+  }
+}
